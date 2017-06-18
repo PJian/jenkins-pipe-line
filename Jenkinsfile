@@ -1,9 +1,3 @@
 pipeline {
-    stages {
-        stage('build') {
-            steps {
-                sh 'java -version'
-            }
-        }
-    }
+   echo 'hello from Pipeline'
 }
