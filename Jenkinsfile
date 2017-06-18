@@ -1,5 +1,11 @@
 pipeline {
-   stages{
-      echo 'hello from Pipeline'
-   }
+   agent any 
+
+    stages {
+        stage('Build') { 
+            steps { 
+                sh 'echo "hello world"' 
+            }
+        }
+    }
 }
