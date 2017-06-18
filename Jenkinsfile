@@ -1,3 +1,5 @@
 pipeline {
-   echo 'hello from Pipeline'
+   stages{
+      echo 'hello from Pipeline'
+   }
 }
