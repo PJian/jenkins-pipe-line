@@ -1,3 +1,3 @@
-def test(String msg){
+def static test(String msg){
     println "${msg}"
 }
